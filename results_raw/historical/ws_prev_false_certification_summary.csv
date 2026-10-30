@@ -1,0 +1,13 @@
+stopping_rule,regime,n_trials,n_certified,n_true_certifications,n_false_certifications,empirical_cert_rate,true_cert_rate,false_cert_rate_per_trial,false_cert_ci95_low,false_cert_ci95_high,conditional_false_discovery_rate,mean_retrospective_true_ratio,mean_optimization_shots,mean_certification_shots,mean_total_operational_shots,median_shots_when_certified,iqr_shots_when_certified
+naive_insample_normal,easily_attainable,60,46,46,0,0.7667,0.7667,0.0,0.0,0.0596,0.0,0.77446,463.5,0.0,463.5,220.0,0.0
+split_student_t_holm,easily_attainable,60,40,40,0,0.6667,0.6667,0.0,0.0,0.0596,0.0,0.77576,583.8,183.7,767.5,590.0,190.0
+split_eb_confirmation,easily_attainable,60,15,15,0,0.25,0.25,0.0,0.0,0.0596,0.0,0.7765,652.0,270.2,922.2,610.0,210.0
+time_uniform_eb_cs,easily_attainable,60,17,17,0,0.2833,0.2833,0.0,0.0,0.0596,0.0,0.77646,645.7,249.0,894.7,590.0,210.0
+naive_insample_normal,borderline,60,18,17,1,0.3,0.2833,0.0167,0.0004,0.0894,0.0556,0.77656,807.8,0.0,807.8,220.0,220.0
+split_student_t_holm,borderline,60,13,13,0,0.2167,0.2167,0.0,0.0,0.0596,0.0,0.77666,743.3,198.2,941.5,730.0,410.0
+split_eb_confirmation,borderline,60,0,0,0,0.0,0.0,0.0,0.0,0.0596,0.0,0.77675,767.3,232.0,999.3,,
+time_uniform_eb_cs,borderline,60,0,0,0,0.0,0.0,0.0,0.0,0.0596,0.0,0.77675,767.3,216.0,983.3,,
+naive_insample_normal,unattainable,60,0,0,0,0.0,0.0,0.0,0.0,0.0596,0.0,0.77663,1000.0,0.0,1000.0,,
+split_student_t_holm,unattainable,60,0,0,0,0.0,0.0,0.0,0.0,0.0596,0.0,0.77685,858.0,142.0,1000.0,,
+split_eb_confirmation,unattainable,60,0,0,0,0.0,0.0,0.0,0.0,0.0596,0.0,0.77685,858.0,142.0,1000.0,,
+time_uniform_eb_cs,unattainable,60,0,0,0,0.0,0.0,0.0,0.0,0.0596,0.0,0.77685,858.0,126.0,984.0,,

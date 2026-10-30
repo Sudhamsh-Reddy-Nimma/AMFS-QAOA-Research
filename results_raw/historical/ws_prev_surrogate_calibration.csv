@@ -1,0 +1,13 @@
+graph_id,family,rho_f0_to_f1,rho_f1_to_f2,spearman_f0_f1,f0_gate_passed,holdout_rmse_3level_cokriging,holdout_rmse_single_fidelity_gp,rmse_reduction_pct,empirical_95_ci_coverage
+random_3_regular_n8_s800_076092,random_3_regular,0.9167,1.3411,0.8909,1,0.02376,0.0448,46.97,1.0
+random_3_regular_n8_s801_0f6cfa,random_3_regular,1.2224,1.3634,0.6848,1,0.03953,0.02921,-35.32,0.5714
+weighted_3_regular_uniform_n8_s820_cf79db,weighted_3_regular_uniform,0.608,1.5,0.6364,1,0.01663,0.05227,68.18,1.0
+weighted_3_regular_uniform_n8_s821_0e3ed5,weighted_3_regular_uniform,0.7949,1.5,0.4788,1,0.02533,0.02512,-0.83,0.7857
+weighted_3_regular_bimodal_n8_s840_c8567b,weighted_3_regular_bimodal,1.2751,0.9337,0.8667,1,0.0076,0.04952,84.65,1.0
+weighted_3_regular_bimodal_n8_s841_affbf9,weighted_3_regular_bimodal,1.2433,1.1275,0.9152,1,0.03346,0.038,11.94,0.8571
+erdos_renyi_n8_s860_b065a1,erdos_renyi,0.9109,1.4163,0.903,1,0.02322,0.03999,41.93,0.8571
+erdos_renyi_n8_s861_1b38fa,erdos_renyi,0.9694,1.1854,0.8061,1,0.01776,0.06497,72.66,1.0
+watts_strogatz_n8_s880_307445,watts_strogatz,1.1704,0.8531,0.7333,1,0.03151,0.05709,44.8,1.0
+watts_strogatz_n8_s881_0df9e4,watts_strogatz,0.6311,0.9449,0.6565,1,0.01525,0.02614,41.67,1.0
+barabasi_albert_n8_s900_62c533,barabasi_albert,0.599,1.5,0.6565,1,0.02932,0.03608,18.75,1.0
+barabasi_albert_n8_s901_68be95,barabasi_albert,0.8972,0.9156,0.7818,1,0.01529,0.03448,55.66,0.9286

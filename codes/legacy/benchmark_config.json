@@ -1,0 +1,44 @@
+{
+  "project": "Rigorous Verification and Research Development of AMFS for Shot-Efficient QAOA",
+  "audit_date": "2026-10-25",
+  "environment": {
+    "python_version": "3.11.2 (GCC 12.2.0)",
+    "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.36",
+    "packages": {
+      "numpy": "2.1.3",
+      "scipy": "1.15.2",
+      "pandas": "2.2.3",
+      "matplotlib": "3.10.1"
+    }
+  },
+  "original_reproduction_config": {
+    "graphs": [100, 101, 102, 103, 104, 105, 106, 107],
+    "seeds_per_graph": 2,
+    "seed_formula": "seed_idx + g_idx * 17",
+    "oracle_seed_formula": "seed * 1009 + method_offset",
+    "budget": 1800,
+    "shots_per_eval": 60,
+    "target_ratio": 0.78
+  },
+  "tuning_protocol": {
+    "tuning_graph_seeds": [200, 201, 202, 203],
+    "held_out_eval_graph_seeds": [300, 301, 302, 303, 304, 305],
+    "eval_seeds_per_graph": 3,
+    "budgets_tested": [600, 1800, 3000],
+    "default_budget": 1800,
+    "default_shots_per_eval": 60
+  },
+  "method_hyperparameters": {
+    "amfs_orig": {"grid_n": 25, "passes": 2, "init_shots": 20, "step_shots": 20, "z": 1.5, "z_start": 0.8},
+    "amfs_faithful": {"grid_n": 25, "passes": 2, "init_shots": 20, "step_shots": 20, "z": 1.5, "z_start": 0.8, "warm_anchor": true},
+    "amfs_improved": {"grid_n": 25, "init_shots": 20, "step_shots": 20, "max_shots_per_point": 180, "scout_points": 6, "max_families": 2, "z": 1.5, "z_start": 0.9, "use_multidim": true, "use_screening": true, "use_widen_all": true},
+    "amfs_imp_target": {"grid_n": 25, "init_shots": 20, "step_shots": 20, "max_shots_per_point": 200, "use_target_stop": true, "target_alpha": 0.10, "min_cert_shots": 120},
+    "icans": {"alpha": 0.25, "s_min": 15, "L_lip": 1.5, "mu": 0.85, "b_reg": 1e-5, "shift_delta": 0.15, "variant": "iCANS2"},
+    "wecans": {"alpha": 0.25, "s_min": 15, "L_lip": 1.5, "mu": 0.85, "b_reg": 1e-5, "shift_delta": 0.15, "latency_ratio_R": 25.0},
+    "dds": {"k_const": 0.5, "s_min": 20, "s_max": 120},
+    "nft": {"shots_per_eval": 60, "harmonics_gamma": 2, "harmonics_beta": 1},
+    "cobyla_hao2025": {"rhobeg": 0.12, "tol": 0.005, "init_mode": "wurtz_love"},
+    "bobyqa_trust": {"initial_step": [0.25, 0.15], "xtol_rel": 0.01},
+    "gpbo_tibaldi": {"kernel": "Matern(nu=2.5)", "acquisition": "LCB(beta=1.5)", "selection": "posterior_ucb"}
+  }
+}

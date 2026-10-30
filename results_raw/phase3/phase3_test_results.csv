@@ -1,0 +1,13 @@
+test_name,status,total_tests_run,failures,errors
+test_01_loss_bounds_and_negative_weight_rejection,PASSED,12,0,0
+test_02_confidence_bound_direction_and_independent_reference,PASSED,12,0,0
+test_03_alpha_spending_sums,PASSED,12,0,0
+test_04_small_sample_and_zero_variance_cases,PASSED,12,0,0
+test_05_sample_size_calculations,PASSED,12,0,0
+test_06_resource_accounting_invariant_and_budget_exhaustion,PASSED,12,0,0
+test_07_fresh_confirmation_and_no_retrospective_leakage,PASSED,12,0,0
+test_08_exact_graph_isomorphism_and_partition_disjointness,PASSED,12,0,0
+test_09_independent_maxcut_and_c4_qaoa_reference,PASSED,12,0,0
+test_10_regression_time_uniform_prefix_invariance_and_monotonicity,PASSED,12,0,0
+test_11_spectrally_tightened_support_soundness_and_efficiency,PASSED,12,0,0
+test_12_scaled_statevector_and_multidepth_execution_n12_to_16_p1_to_4,PASSED,12,0,0

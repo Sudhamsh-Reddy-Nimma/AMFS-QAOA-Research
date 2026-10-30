@@ -1,0 +1,13 @@
+drift_condition,drift_gamma,drift_beta,rule,n_conf,pre_drift_true_loss,trajectory_average_loss,terminal_post_drift_loss,target_tau,terminal_violates_target,certification_rate,false_cert_rate_wrt_terminal_state,stationary_iid_assumption_holds
+stationary_zero_drift,0.0,0.0,eb_spectral_valid,200,0.31667,0.31667,0.31667,0.36167,False,0.032,0.0,True
+stationary_zero_drift,0.0,0.0,intersection_spectral_valid,200,0.31667,0.31667,0.31667,0.36167,False,0.004,0.0,True
+stationary_zero_drift,0.0,0.0,time_uniform_eb_cs_spectral_valid,200,0.31667,0.31667,0.31667,0.36167,False,0.98,0.0,True
+stationary_zero_drift,0.0,0.0,student_t_heuristic,200,0.31667,0.31667,0.31667,0.36167,False,1.0,0.0,True
+mild_intra_conf_drift,0.12,0.08,eb_spectral_valid,200,0.31667,0.32408,0.33705,0.36167,False,0.0,0.0,False
+mild_intra_conf_drift,0.12,0.08,intersection_spectral_valid,200,0.31667,0.32408,0.33705,0.36167,False,0.0,0.0,False
+mild_intra_conf_drift,0.12,0.08,time_uniform_eb_cs_spectral_valid,200,0.31667,0.32408,0.33705,0.36167,False,0.78,0.0,False
+mild_intra_conf_drift,0.12,0.08,student_t_heuristic,200,0.31667,0.32408,0.33705,0.36167,False,1.0,0.0,False
+severe_intra_conf_drift,0.28,0.18,eb_spectral_valid,200,0.31667,0.34772,0.39965,0.36167,True,0.0,0.0,False
+severe_intra_conf_drift,0.28,0.18,intersection_spectral_valid,200,0.31667,0.34772,0.39965,0.36167,True,0.0,0.0,False
+severe_intra_conf_drift,0.28,0.18,time_uniform_eb_cs_spectral_valid,200,0.31667,0.34772,0.39965,0.36167,True,0.148,0.148,False
+severe_intra_conf_drift,0.28,0.18,student_t_heuristic,200,0.31667,0.34772,0.39965,0.36167,True,0.464,0.464,False

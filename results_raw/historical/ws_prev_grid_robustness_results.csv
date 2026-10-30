@@ -1,0 +1,13 @@
+family,scouting_mode,grid_n,n_trials,certified_rate,mean_true_ratio,std_true_ratio,mean_l2_dist_to_optimum,mean_total_shots
+random_3_regular,deterministic_grid,21,6,0.5,0.81606,0.01378,0.0615,795.0
+random_3_regular,deterministic_grid,25,6,0.5,0.80353,0.01221,0.1524,761.7
+random_3_regular,deterministic_grid,27,6,0.5,0.80634,0.00866,0.13398,748.3
+random_3_regular,deterministic_grid,31,6,0.5,0.80051,0.01707,0.13765,788.3
+random_3_regular,random_shifted_grid,25,6,0.5,0.81208,0.01058,0.10087,735.0
+random_3_regular,latin_hypercube,25,6,0.5,0.81328,0.01525,0.40311,731.7
+weighted_3_regular_bimodal,deterministic_grid,21,6,0.5,0.83851,0.06432,0.08142,701.7
+weighted_3_regular_bimodal,deterministic_grid,25,6,0.5,0.83001,0.07279,0.09035,771.7
+weighted_3_regular_bimodal,deterministic_grid,27,6,0.5,0.8445,0.06172,0.03976,726.7
+weighted_3_regular_bimodal,deterministic_grid,31,6,0.5,0.82834,0.0831,0.08116,800.0
+weighted_3_regular_bimodal,random_shifted_grid,25,6,0.5,0.83224,0.06104,0.0906,786.7
+weighted_3_regular_bimodal,latin_hypercube,25,6,0.5,0.83714,0.05979,0.07367,810.0

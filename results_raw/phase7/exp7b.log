@@ -1,0 +1,9 @@
+[7B] random_3_regular: 20 graphs generated (1s)
+[7B] random_3_regular done (37s)
+[7B] erdos_renyi: 20 graphs generated (38s)
+[7B] erdos_renyi done (70s)
+[7B] weighted_3_regular_uniform: 20 graphs generated (71s)
+[7B] weighted_3_regular_uniform done (102s)
+[7B] weighted_3_regular_bimodal: 20 graphs generated (103s)
+[7B] weighted_3_regular_bimodal done (134s)
+[7B] finished: 5760 trials in 135s

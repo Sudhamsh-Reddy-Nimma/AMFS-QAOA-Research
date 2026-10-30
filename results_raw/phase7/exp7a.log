@@ -1,0 +1,6 @@
+[7A] config random_3_regular p=1 done  (elapsed 56s)
+[7A] config erdos_renyi p=1 done  (elapsed 113s)
+[7A] config random_3_regular p=2 done  (elapsed 202s)
+[7A] config erdos_renyi p=2 done  (elapsed 300s)
+[7A] config weighted_3_regular_bimodal p=2 done  (elapsed 398s)
+[7A] finished: 13440 rows in 398s

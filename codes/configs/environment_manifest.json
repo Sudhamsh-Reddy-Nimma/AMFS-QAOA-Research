@@ -1,0 +1,33 @@
+{
+  "python_version": "3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]",
+  "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8"
+  },
+  "verified_invariants": {
+    "phase3_unit_and_regression_tests": "12/12 PASSED",
+    "phase4a_direct_optimizer_global_null_rows": 84,
+    "phase4b_calibration_rows": 720,
+    "phase4c_cost_frontier_rows": 972,
+    "phase5_reuse_ablation_rows": 72,
+    "phase6_core_regime_trials": 2240,
+    "phase6_split_optimization_trials": "file_not_shipped",
+    "phase6_multiscale_n8_to_16_p1_to_4_trials": 540,
+    "resource_accounting_exact": true,
+    "phase4b_non_asymptotic_discrepancy_zero": true,
+    "phase6_non_asymptotic_false_certs": 0
+  },
+  "phase7": {
+    "unit_tests": "Phase 3: 12/12 passed; Phase 7 batch-vs-scalar equivalence: 2/2 passed",
+    "exp7a_rows": 13440,
+    "exp7a_searches": 9600,
+    "exp7b_trials": 5760,
+    "exp7c_rows": 12960,
+    "exp7c_states": 12,
+    "independent_verifier": "codes/analysis/verify_phase7_independently.py: ALL CHECKS PASSED",
+    "claim_verdicts": "results_paper/metrics/phase7_claim_verdicts.json"
+  }
+}

@@ -1,0 +1,14 @@
+[7C] random_3_regular g0 p=1 done (mu_ref=0.3249, sd=0.092)  elapsed 53s
+[7C] random_3_regular g0 p=2 done (mu_ref=0.2651, sd=0.086)  elapsed 100s
+[7C] random_3_regular g0 p=4 done (mu_ref=0.1873, sd=0.082)  elapsed 143s
+[7C] random_3_regular g1 p=1 done (mu_ref=0.3249, sd=0.094)  elapsed 191s
+[7C] random_3_regular g1 p=2 done (mu_ref=0.2607, sd=0.085)  elapsed 237s
+[7C] random_3_regular g1 p=4 done (mu_ref=0.1888, sd=0.081)  elapsed 279s
+[7C] resuming: 6 states already saved
+[7C] erdos_renyi g0 p=1 done (mu_ref=0.3567, sd=0.090)  elapsed 53s
+[7C] erdos_renyi g0 p=2 done (mu_ref=0.3027, sd=0.079)  elapsed 110s
+[7C] erdos_renyi g0 p=4 done (mu_ref=0.2534, sd=0.065)  elapsed 161s
+[7C] erdos_renyi g1 p=1 done (mu_ref=0.3198, sd=0.108)  elapsed 215s
+[7C] erdos_renyi g1 p=2 done (mu_ref=0.2481, sd=0.099)  elapsed 268s
+[7C] erdos_renyi g1 p=4 done (mu_ref=0.1848, sd=0.075)  elapsed 319s
+[7C] finished: 12960 rows in 320s
